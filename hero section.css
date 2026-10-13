@@ -1,0 +1,26 @@
+.hero{
+    background-color:rgb(122, 122, 173);
+    color: #9b336c;
+    text-align: center;
+    padding: 80px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.btn{
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(102, 14, 218);
+    color: rgb(138, 48, 48);
+    padding: 12px 25px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: blue;
+    color: #ada9a9;
+}

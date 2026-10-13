@@ -1,0 +1,12 @@
+.card{
+    background-color: #a15e5e;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px #9abe460d;
+    transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center ;
+}
+.card:hover{
+    transform:translateY(-5px);
+}

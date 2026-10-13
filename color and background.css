@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+}
+
+.box1 {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: green;
+    color: white;
+}
+
+.box3 {
+    background-color: #ff69b4;
+}
+
+.box4 {
+    background-color: rgb(255, 165, 0);
+}
+
+.background-box {
+    background-color: lightblue;
+    background-image: url("dj.jpg.webp");
+    background-size:cover;
+}
+
+.gradient-box {
+    background: linear-gradient(to right, purple, pink);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+}

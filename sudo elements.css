@@ -1,0 +1,12 @@
+input::placeholder{
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+input::file-selector-button{
+    color: red;
+    font-size: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}

@@ -1,0 +1,18 @@
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+
+.item {
+    padding: 40px;
+    background: #7d6ea1;
+    text-align: center;
+    border:5px solid rgb(196, 21, 129);
+
+}

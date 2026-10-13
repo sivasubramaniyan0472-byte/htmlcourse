@@ -1,0 +1,26 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: blueviolet;
+padding: 50px;
+}
+button:hover {
+background-color: green;
+color: white;
+}
+button:active {
+background-color: red;
+}
+input:focus {
+border: 2px solid blue;
+background-color: rgb(224, 20, 163);
+}
+a:link {
+color: rgb(23, 219, 72);
+}
+a:visited {
+color: purple;
+}
+a:hover {
+color: red;
+}

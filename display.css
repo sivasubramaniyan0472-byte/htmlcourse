@@ -1,0 +1,12 @@
+.display{
+    display: block;
+    background-color: aqua;
+}
+.d1{
+    display:inline-block;
+    background-color: blue;
+    padding: 20px;
+    border: 10px solid red;
+    width: 200px;
+
+}

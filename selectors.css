@@ -1,0 +1,22 @@
+p{
+    color: blue;
+    margin: 40px;
+}
+.s1{
+    background-color: red;
+    padding: 40px;
+}
+#m1{
+    color: crimson;
+    text-align: left;
+    font-size: 70px;
+}
+h3,h4{
+    color: darkcyan;
+    text-align: center;
+}
+*{
+    color: chartreuse;
+    font-size: 50px;
+
+}

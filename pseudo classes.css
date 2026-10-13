@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Pseudo Classes Example</h1>
+
+<button>Click Me</button>
+
+<br><br>
+
+<input type="text" placeholder="Enter your name">
+
+<br><br>
+
+<a href="https://www.google.com">Visit Google</a>
+
+</body>
+</html>

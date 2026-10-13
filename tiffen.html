@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Siva Tiffin Center</title>
+
+    <link rel="stylesheet" href="tiffen.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🍽️ Siva tiffen Center
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#cart">Cart</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Welcome to Siva tiffen Center</h1>
+
+            <p>
+                Fresh • Hot • Tasty South Indian Tiffin
+            </p>
+
+            <a href="#menu" class="hero-btn">
+                Order Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+
+    <section id="menu" class="menu-section">
+
+        <h2>Our Menu</h2>
+
+        <p class="subtitle">
+            Delicious food made fresh every day ❤️
+        </p>
+
+
+        <div class="menu-container">
+
+
+            <!-- IDLY -->
+
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80"
+                    alt="Idly">
+
+                <div class="food-info">
+
+                    <h3>Idly</h3>
+
+                    <p>
+                        Soft and hot Idly with sambar and chutney.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹30
+                        </span>
+
+                        <button onclick="addToCart('Idly', 30)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DOSAI -->
+
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=600&q=80"
+                    alt="Dosai">
+
+                <div class="food-info">
+
+                    <h3>Dosai</h3>
+
+                    <p>
+                        Crispy golden Dosai with chutney.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹50
+                        </span>
+
+                        <button onclick="addToCart('Dosai', 50)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PANIYARAM -->
+
+            <div class="food-card">
+
+                <img
+                    src="c:\Users\ELCOT\Pictures\siva_tiffin_assets\paniyaram.jpg"
+                    alt="Paniyaram">
+
+                <div class="food-info">
+
+                    <h3>Paniyaram</h3>
+
+                    <p>
+                        Hot and crispy Paniyaram with chutney.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹10
+                        </span>
+
+                        <button onclick="addToCart('Paniyaram', 10)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- APPAM -->
+
+            <div class="food-card">
+
+                <img
+                    src="c:\Users\ELCOT\Pictures\siva_tiffin_assets\appam.jpg"
+                    alt="Appam">
+
+                <div class="food-info">
+
+                    <h3>Appam</h3>
+
+                    <p>
+                        Soft and fluffy South Indian Appam.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹45
+                        </span>
+
+                        <button onclick="addToCart('Appam', 45)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PODI DOSAI -->
+
+            <div class="food-card">
+
+                <img
+                    src="c:\Users\ELCOT\Pictures\siva_tiffin_assets\dosai.jpg"
+                    alt="Podi Dosai">
+
+                <div class="food-info">
+
+                    <h3>Podi Dosai</h3>
+
+                    <p>
+                        Crispy Dosai topped with spicy Podi.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹60
+                        </span>
+
+                        <button onclick="addToCart('Podi Dosai', 60)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- OMELETTE -->
+
+            <div class="food-card">
+
+                <img
+                    src="c:\Users\ELCOT\Pictures\siva_tiffin_assets\omelette.jpg"
+                    alt="Omelette">
+
+                <div class="food-info">
+
+                    <h3>Omelette</h3>
+
+                    <p>
+                        Fresh egg Omelette with onion and spices.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹40
+                        </span>
+
+                        <button onclick="addToCart('Omelette', 40)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HALF BOIL -->
+
+            <div class="food-card">
+
+                <img
+                    src="c:\Users\ELCOT\Pictures\siva_tiffin_assets\off.jpg"
+                    alt="Half Boil">
+
+                <div class="food-info">
+
+                    <h3>Half Boil</h3>
+
+                    <p>
+                        Fresh egg Half Boil with pepper and salt.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹30
+                        </span>
+
+                        <button onclick="addToCart('Half Boil', 30)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ONION DOSAI -->
+
+            <div class="food-card">
+
+                <img
+                    src="c:\Users\ELCOT\Pictures\siva_tiffin_assets\onion-dosai.jpg"
+                    alt="Onion Dosai">
+
+                <div class="food-info">
+
+                    <h3>Onion Dosai</h3>
+
+                    <p>
+                        Crispy Dosai topped with fresh onion.
+                    </p>
+
+                    <div class="bottom">
+
+                        <span class="price">
+                            ₹65
+                        </span>
+
+                        <button onclick="addToCart('Onion Dosai', 65)">
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CART -->
+
+    <section id="cart" class="cart-section">
+
+        <h2>🛒 Your Cart</h2>
+
+        <div id="cartItems">
+
+            <p class="empty">
+                Your cart is empty.
+            </p>
+
+        </div>
+
+
+        <div class="cart-total">
+
+            <h3>
+                Total:
+                <span id="totalPrice">₹0</span>
+            </h3>
+
+            <button
+                class="clear-btn"
+                onclick="clearCart()">
+                Clear Cart
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ORDER FORM -->
+
+    <section class="order-section">
+
+        <h2>Customer Details</h2>
+
+        <div class="order-form">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Enter your name">
+
+            <input
+                type="tel"
+                id="customerPhone"
+                placeholder="Enter mobile number">
+
+            <textarea
+                id="customerAddress"
+                placeholder="Enter delivery address"></textarea>
+
+            <button
+                class="order-btn"
+                onclick="placeOrder()">
+
+                Place Order
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            Siva Tiffin Center serves fresh, tasty and hygienic
+            South Indian food at affordable prices.
+            Our food is prepared fresh every day with quality
+            ingredients.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>📍 Madurai, Tamil Nadu</p>
+
+        <p>📞 +91 98765 43210</p>
+
+        <p>⏰ 6:00 AM - 11:00 AM</p>
+
+        <a
+            href="tel:+919894588302"
+            class="call-btn">
+
+            📞 Call Now
+
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>
+            🍽️ Siva Tiffin Center
+        </h3>
+
+        <p>
+            Fresh Food • Great Taste • Happy Customers
+        </p>
+
+        <p>
+            © 2026 Siva Tiffin Center
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="tiffen.js"></script>
+
+</body>
+
+</html>

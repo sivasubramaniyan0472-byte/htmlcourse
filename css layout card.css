@@ -1,0 +1,32 @@
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card img {
+    margin: auto;
+    width:200px;
+    height: 200px;
+    display: block;
+}
+.card-content {
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(236, 148, 14);
+}
+.card-content h3 {
+    margin-bottom: 10px;
+}
+.card-content p {
+    color: #666;
+    line-height: 1.6;
+}
+.card-content a {
+    display: inline-block;
+    margin-top: 15px;
+}

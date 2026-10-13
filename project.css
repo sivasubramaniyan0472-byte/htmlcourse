@@ -1,0 +1,184 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f5;
+    color: #222;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.navbar h2 {
+    color: #173f35;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+.hero {
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 120px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.properties {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.properties h1 {
+    margin-bottom: 30px;
+    color: #173f35;
+}
+
+.property-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px gray;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 15px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.card h3 {
+    color: #173f35;
+    margin: 15px;
+}
+
+.card button {
+    background-color: #173f35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: orange;
+}
+
+.about {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h1 {
+    color: #173f35;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact h1 {
+    color: #173f35;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 10px;
+}
+
+footer {
+    background-color: #173f35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar a {
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .property-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}

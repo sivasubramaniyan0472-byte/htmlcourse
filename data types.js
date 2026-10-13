@@ -1,0 +1,10 @@
+let name="siva";
+let age=25;
+let isstudent=true;
+let result;
+let value=null;
+console.log(name);
+console.log(age);
+console.log(isstudent);
+console.log(result);
+console.log(value);

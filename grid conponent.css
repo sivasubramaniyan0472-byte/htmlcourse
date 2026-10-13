@@ -1,0 +1,10 @@
+.container-grid{
+    grid-template-columns: repeat(auto fit,minmax(300px,1fr));
+    gap: 30px;
+}
+.card{
+    padding: 30px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    text-align: center;
+}
